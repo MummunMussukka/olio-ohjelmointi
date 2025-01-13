@@ -15,7 +15,6 @@ int main(){
 int game(int maxnum)
 {
     int cur_number;
-    srand(10);
     cur_number = rand() % maxnum + 1;
     int input;
     int guess_number = 0;
